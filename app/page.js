@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   const algorithms = [
-    "Albam", "Atbash","Atbush","Alberti", "Polybe", "SubstitutionSimple", "Cesar", "Vigenere",
+    "Albam", "Atbah","Atbash","Alberti", "Polybe", "SubstitutionSimple", "Cesar", "Vigenere",
      "Trithemius", "Autokey", "Porta", "Beaufort", "Vernam(otp)",
   ];
 
@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <footer className="bg-gray-800 text-center py-6 mt-14 rounded-t-xl">
+      <footer className="bg-gray-800 text-center py-6 mt-24 rounded-t-xl">
           <p className="text-lg text-gray-300">Code provided by Benhamaid Mohamed Amine - M1 RSD G2</p>
       </footer>
 
