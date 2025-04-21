@@ -48,7 +48,7 @@ const algorithms = {
     link: "https://www.programiz.com/online-compiler/0m6RQfGm9zTpU",
     description: "Le chiffre de Trithemius est une variante de Vigenère avec une clé qui évolue automatiquement, souvent de manière arithmétique (ex : ABCDE...).",
     Chiffrement: "Ci=(Mi +i)mod26(ou i commence a 0)",
-    Dechiffrement: "D(C)=(Mi - i + 26)mod26",
+    Dechiffrement: "D(C)=(Ci - i + 26)mod26",
   },
   "Vigenere": {
     link: "https://www.programiz.com/online-compiler/2K0wGCwEQ1kvC",
