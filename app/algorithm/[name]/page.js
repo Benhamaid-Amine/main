@@ -80,8 +80,14 @@ const algorithms = {
     Chiffrement: "C = M ⊕ K",
     Dechiffrement: "M = C ⊕ K",
   },
+    "DES": {
+    link: "https://www.programiz.com/online-compiler/5pg7sOnglYeyJ",
+    description: "Algorithme de chiffrement symétrique par blocs (64 bits) utilisant une clé de 56 bits et 16 tours de transformations.",
+    Chiffrement: "C = DES_Encrypt(M, K)",
+    Dechiffrement: "M = DES_Decrypt(C, K)",
+  },
   
-};// 9C 71 A2 C7 3F 7C 42 C8 key: FD 1C CB A9 5A 1E 2C A0
+}; // 9C 71 A2 C7 3F 7C 42 C8 key: FD 1C CB A9 5A 1E 2C A0
 
 export default function AlgorithmPage() {
   const params = useParams();
